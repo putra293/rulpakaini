@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ Mohon tunggu zifabotz sedang memproses`
 }
 exports.ok = () => {
     return `✅ Done. Sudah zifa proses`
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan Zifabotz sebagai admin terlebih dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -86,7 +86,7 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
+saya adalah *${botname}*, Bot ini di buat oleh *Rozi* yang menggunakan script dari alphabot. Harap tidak ngespam bot❗.
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -1484,7 +1484,7 @@ exports.tqto = () =>{
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc *pembuat SC*
-├ Rozi & Zifabotz
+├ *Rozi & Zifabotz*
 ├ Penyedia Module
 ╰❒ And All Support
 `
