@@ -860,9 +860,12 @@ Goodbye`
 }
 exports.source = () =>{
 return`*—「 Script Zifabotz 」—*
-
-Cek di yt zeeone aje soalnye Rozi kagak tau🗿 
-Link yt ada di bawah!
+╭──❉ *📮 Script Recode:*
+║│➸ https://github.com/Amrozi888/zifabotz-MD1
+║╭──❉  •BASE Hisoka-Morou
+║╰──❉ •SC ORI alphabot-MD11
+Cek di YouTube ZeeoneOfc di bawah!
+═════════════
 `
 }
 exports.tos = (ownernomer) => {
@@ -1472,13 +1475,14 @@ exports.tqto = () =>{
 ├ My God
 ├ My Parents
 ├ Fatih A.
+├ Zifabotz
+├ Rozi
 ├ Ferdi
 ├ DikaArdnt
 ├ Mhankbarbar
 ├ Nurutomo
 ├ Rashid
-├ ZeeoneOfc *pembuat SC*
-├ *Rozi & Zifabotz*
+├ ZeeoneOfc 
 ├ Penyedia Module
 ╰❒ And All Support
 `
