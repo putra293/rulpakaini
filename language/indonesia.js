@@ -864,7 +864,8 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Cek di yt zeeone aje soalnye Rozi kagak tau🗿
+Cek di yt zeeone aje soalnye Rozi kagak tau🗿 
+Link yt ada di bawah!
 `
 }
 exports.tos = (ownernomer) => {
