@@ -871,16 +871,13 @@ Link yt ada di bawah!
 }
 exports.tos = (ownernomer) => {
     return `
-*-------「 DONATE 」 -------*
-
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
-
-Thanks!
-
-Contact person Owner:
+››╭─〘 *Donasi* 〙
+╭╡📮 *Donasi bang biar semangat ngebot nye...*
+│┝‷✧ *Dana:* 085828764046
+│╰───···─────
+│⁺◛˖ Ingin Donasi? Chat nomor dibawah
+╰──────────···───╮
+Kontak Owner Zifabotz:
 wa.me/${ownernomer}
 
     `
