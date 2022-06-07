@@ -93,7 +93,7 @@ saya adalah *${botname}*, Bot ini di buat oleh *Rozi* yang menggunakan script da
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Zifabotz-Md :*
+*📚 List-Menu ⳹ ❋ཻུ۪۪⸙Zifabot-MD⳹ ❋ཻུ۪۪ :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
