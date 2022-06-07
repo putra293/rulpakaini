@@ -855,7 +855,7 @@ exports.leave = () =>{
 Goodbye`
 }
 exports.source = () =>{
-return`*—「 Broadcast Zifabotz 」—*
+return`*—「 Script Zifabotz 」—*
 
 Cek di yt zeeone aje soalnye Rozi kagak tau🗿 
 Link yt ada di bawah!
