@@ -814,39 +814,31 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 exports.rules = (prefix) => {
     return `
-*── 「 RULES AND FAQ 」 ──*
+╭─────[ *RULES* ]─────✧
+┴
+│¹ Dilarang Hina zifabotz / Owner
+│² Dilarang Spam Command
+│³ Dilarang Kirim Virtex ke zifabotz
+│⁴ Dilarang Spam Menu Ga Jelas
+│⁵ Dilarang Telp / Vc
+│⁶ Dilarang Culik Bot
+│⁷ Dilarang Promosi
+│⁸ Dilarang Meniru pesan Bot
+│⁹ Bot Tidak Menerima Save Kontak
+│¹⁰ Dilarang Chat Owner Ga Jelas
+│¹¹ No plagiat
+┬
+╰──────────···
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
-
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
-
-3. Jangan mengeksploitasi bot.😖
-Sanksi: *PERMANENT BLOCK*
-
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
-
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
-
-🗯️ Boleh saya menambah ke grup?
-➡️ Untuk sementara bot dalam status free to add.
-
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
-
-🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
-
-
-Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
-
-⚠️ Segala kebijakan dan ketentuan Zifabotz di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
-
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Zifabotz
-😖🙏
+╭─────[ *HUKUM* ]─────✧
+┴
+│ 1 & 11 = Block + banned permanent
+│ 2,4,6 & 8 = Banned sementara
+│ 3 = War
+│ 5 = Block sementara
+│ 9 & 10 = Block permanent
+┬
+╰──────────···
 `
 }
 exports.welcome = () =>{
