@@ -797,7 +797,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
                 quotesAnime().then(async anu =>{
 				gam = await getBuffer(picak + 'quotes anime')
                 result = anu[Math.floor(Math.random(), anu.length)]
-                alpha.send5ButLoc(m.chat, `_${result.quotes}_\n\nBy *'${result.karakter}'*, ${result.anime}\n\n*_- ${result.up_at}_*` , '©' + ownername, gam, [{"quickReplyButton": {"displayText": "Next Quotes","id": 'quotesanime'}}], {quoted:m})
+                alpha.send5ButImg(m.chat, `_${result.quotes}_\n\nBy *'${result.karakter}'*, ${result.anime}\n\n*_- ${result.up_at}_*` , '©' + ownername, gam, [{"quickReplyButton": {"displayText": "Next Quotes","id": 'quotesanime'}}], {quoted:m})
 				})
             }
             break
@@ -825,7 +825,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
             var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Instagram Rozi",
 						"url": `${myweb}`
 						}
 					}
@@ -834,7 +834,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				}
             break
             
-            case 'donasi': case 'donate':{
+            case 'donasi': case '💳donate💳':{
             var but = [
           {
             "urlButton": {
@@ -844,26 +844,26 @@ if (!m.isGroup) return reply(lang.groupOnly())
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Instagram rozi",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Rules",
+              "displayText": "💬Rules💬",
 "id": 'rules'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Owner",
+              "displayText": "😼Owner zifabotz😼",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "List Command",
+              "displayText": "📮List Command",
 "id": 'command'
             }
           }
@@ -1002,12 +1002,12 @@ break
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Instagram",
 						"url": `${myweb}`
 						}
 					}
 				]
-				await alpha.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				await alpha.send5ButImg(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
                 })
                 .catch((err) => {
                     reply(lang.err())
@@ -1027,12 +1027,12 @@ break
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Instagram",
 						"url": `${myweb}`
 						}
 					}
 				]
-				await alpha.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				await alpha.send5ButImg(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
                 })
                 .catch((err) => {
                     reply(lang.err())
@@ -1051,12 +1051,12 @@ break
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Instagram",
 						"url": `${myweb}`
 						}
 					}
 				]
-				await alpha.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				await alpha.send5ButImg(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
                 })
                 .catch((err) => {
                     reply(lang.err())
@@ -1080,12 +1080,12 @@ break
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Instagram",
 						"url": `${myweb}`
 						}
 					}
 				]
-				await alpha.send5ButLoc(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				await alpha.send5ButImg(from, txt , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
                 })
                     alpha.sendMessage(from, {audio : {url : data.medias[0].url}, fileName: `${data.title}.mp3`, mimetype: 'audio/mpeg'}, {quoted: m})
                     }
@@ -1213,7 +1213,7 @@ break
             case 'tagall': case 'infoall':
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!(isGroupAdmins || isGroupOwner )) return reply(lang.adminOnly())
-                let tekss = `══✪〘 *👥 Mention All* 〙✪══\n\n➲ *Message : ${q ? q : 'Nothing'}*\n\n`
+                let tekss = `〘 *👥 Mention All* 〙\n\n➲ *Message : ${q ? q : 'Nothing'}*\n\n`
 		      	for (let mem of participants) {
 		            tekss += `🏅 @${mem.id.split('@')[0]}\n`
 				}
@@ -1581,7 +1581,7 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
+						await alpha.send5ButImg(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
 							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
@@ -1598,7 +1598,7 @@ break
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+			await alpha.send5ButImg(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
