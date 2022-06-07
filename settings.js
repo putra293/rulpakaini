@@ -18,8 +18,8 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = true //status online (online)
 
 // Other
-global.botname = "Zifabotz-MD" //namabot kalian
-global.ownername= "Zifabotz-MD" //nama kalian
+global.botname = "*⳹ ❋ཻུ۪۪⸙Zifabot-MD⳹ ❋ཻུ۪۪*" //namabot kalian
+global.ownername= "*⳹ ❋ཻུ۪۪⸙Zifabot-MD⳹ ❋ཻུ۪۪*" //nama kalian
 global.myweb ="https://instagram.com/zalfapontianak" //bebas asal jan hapus
 global.youtube = "https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ" //bebas asal jan hapus
 global.github = "https/github.com/Botynyakamu/" //bebas
@@ -27,7 +27,7 @@ global.email = "anidaanida59@gmail.com" //bebas
 global.region = "roziganteng" //bebas
 global.ownernomer = "6285828764046" // nomor wa kalian
 global.ownernomerr = "+6285828764046" //nmr wa kalian
-global.thumbnail = "./image/donasip.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
+global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/lol.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6285828764046","6285828764046","6285828764046"] //ganti agar fitur owner bisa di gunakan
