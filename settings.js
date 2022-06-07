@@ -13,9 +13,9 @@ global.APIKeys = {
 
 // setting 
 global.autoread = true // auto read pesan / message
-//global.autorecording = true //status auto merekam ( auto record )
-//global.autoketik = true //status auto mengetik (auto typing)
-//global.available = false //status online (online)
+global.autorecording = false //status auto merekam ( auto record )
+global.autoketik = true //status auto mengetik (auto typing)
+global.available = true //status online (online)
 
 // Other
 global.botname = "Zifabotz-MD" //namabot kalian
@@ -24,7 +24,7 @@ global.myweb ="https://instagram.com/zalfapontianak" //bebas asal jan hapus
 global.youtube = "https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ" //bebas asal jan hapus
 global.github = "https/github.com/Botynyakamu/" //bebas
 global.email = "anidaanida59@gmail.com" //bebas
-global.region = "rozioi" //bebas
+global.region = "roziganteng" //bebas
 global.ownernomer = "6285828764046" // nomor wa kalian
 global.ownernomerr = "+6285828764046" //nmr wa kalian
 global.thumbnail = "./image/lolh.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
