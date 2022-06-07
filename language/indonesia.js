@@ -5,11 +5,11 @@ exports.wait = () => {
     return `⏳ Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Done. Sudah zifa proses`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ Fitur zifabotz Sedang Error`
 }
 exports.erorLink = () => {
     return `⚠️ Link nya error`
@@ -34,11 +34,11 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Command ini khusus Rozi`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️Sudah selesai, Rozi`
 }
 
 exports.groupOnly = () => {
@@ -54,7 +54,7 @@ exports.nhFalse = () => {
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 HALL OF SHAME 」 ──*
+    return `*── 「 ZIFABOTZ 」 ──*
     
 Total diblokir: *${blockNumber.length}* user\n`
 }
@@ -92,7 +92,7 @@ saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu NitsuBotz-Md :*
+*📚 List-Menu Zifabotz-Md :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -842,9 +842,9 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan Zifabotz di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Zifabotz
 😖🙏
 `
 }
@@ -864,8 +864,7 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Cek di yt zeeone aje soalnye Rozi kagak tau🗿
 `
 }
 exports.tos = (ownernomer) => {
@@ -1483,7 +1482,8 @@ exports.tqto = () =>{
 ├ Mhankbarbar
 ├ Nurutomo
 ├ Rashid
-├ ZeeoneOfc
+├ ZeeoneOfc *pembuat SC*
+├ Rozi & Zifabotz
 ├ Penyedia Module
 ╰❒ And All Support
 `
