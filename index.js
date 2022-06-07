@@ -817,7 +817,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
             }
             break
             case 'owner': case 'creator': {
-                alpha.sendContact(m.chat, global.owner, m)
+                alpha.sendContact(m.chat, global.ownernomer, m)
             }
             break
             case 'rules':{
@@ -838,13 +838,13 @@ if (!m.isGroup) return reply(lang.groupOnly())
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "YouTube Roz😎",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Instagram rozi",              
+              "displayText": "💌Instagram rozi💌",              
               "url": `${myweb}`
 
             }
@@ -1581,10 +1581,10 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButImg(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Rozi💌","url": `${youtube}`}},{"urlButton": {"displayText": "Instagram rozi😼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "Si ganteng awokawoak 😎","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
+						await alpha.send5ButImg(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Rozi💌","url": `${youtube}`}},{"urlButton": {"displayText": "Instagram rozi😼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "Si ganteng awokawoak 😎","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Command📮","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
-							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Command📮","id": 'command'}}] , {quoted: m})
+							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Rozi💌","url": `${youtube}`}},{"urlButton": {"displayText": "Instagram rozi😼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "Si ganteng awokawoak 😎","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Command📮","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
 							alpha.sendKatalog(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
