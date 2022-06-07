@@ -86,7 +86,8 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya adalah *${botname}*, Bot ini di buat oleh *Rozi* yang menggunakan script dari alphabot. Harap tidak ngespam bot❗.
+saya adalah *${botname}*, Bot ini di buat oleh *Rozi* yang menggunakan script dari alphabot. 
+*_Harap tidak ngespam bot❗._*
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
