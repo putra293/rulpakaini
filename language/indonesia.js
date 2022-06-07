@@ -801,6 +801,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ My God
 ├ My Parents
 ├ Fatih A.
+├ Zifabotz
+├ Rozi
 ├ Ferdi
 ├ DikaArdnt
 ├ Mhankbarbar
@@ -809,6 +811,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
+
+⬣━〔Powered By Rozi〕━⬣
     `
 }
 
