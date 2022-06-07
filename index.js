@@ -758,7 +758,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Instagram rozi",
 						"url": `${myweb}`
 						}
 					}
@@ -779,7 +779,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Instagram rozi",
 						"url": `${myweb}`
 						}
 					}
