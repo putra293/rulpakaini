@@ -85,9 +85,9 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} ... 
+	return`*Hai kak ${pushname} 👋 selamat ${salam}* ... 
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_⳹ ❋ཻུ۪۪Zifabot-MD⳹ ❋ཻུ۪۪_* ]─✧
+╭─[ *_Zifabot-MD_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 button 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 ⬣━〔Powered By Rozi━⬣
