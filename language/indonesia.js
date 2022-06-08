@@ -86,12 +86,16 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya adalah *${botname}*, Bot ini di buat oleh *Rozi* yang menggunakan script dari alphabot. 
-*_Harap tidak ngespam bot❗._*
+♡   ❍ㅤ  ⎙ㅤ ⌲
+╭─[ *_⳹ ❋ཻུ۪۪Zifabot-MD⳹ ❋ཻུ۪۪_* ]─✧
+╰─────···
+📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 button 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
+⬣━〔Powered By Rozi━⬣
+▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname}*
+    return `*Selamat ${salam} ${pushname} 🧸*
 *⌚Time Server : ${time}*
 *📚 List-Menu ⳹ ❋ཻུ۪۪⸙Zifabot-MD⳹ ❋ཻུ۪۪ :*
 
