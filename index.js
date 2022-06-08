@@ -1593,7 +1593,7 @@ break
 							alpha.sendKatalog2(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
 							}
 						if(typemenu == 'list'){
-							alpha.sendListMenu(m.chat, `╭─⬣「 _*INFO USER*_ 」⬣\n│  *Name* : ${pushname}\n│  *Number* : ${sender.split("@")[0]}\n│  *Status* : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _*INFO ZIFABOTZ*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *🧸Name* : ${botname}\n│ *😼Owner* : ${ownername}\n│ *💌Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *⌚Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣\n\n╭─⬣「 _*WAKTU INDONESIAN*_ 」⬣\n│ *Wib* : ${time}\n│ *Wita* : ${wita}\n│ *Wit* : ${wit}  \n╰─⬣`, `© ${ownername}`, `Selamat ${salam} ${pushname} ☺️`, `»Pilihan Menu«`, {quoted:fgif})
+							alpha.sendListMenu(m.chat, `╭─⬣「 _*INFO USER*_ 」⬣\n│  *Name* : ${pushname}\n│  *Number* : ${sender.split("@")[0]}\n│  *Status* : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _*INFO ZIFABOTZ*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *🧸Name* : ${botname}\n│ *😼Owner* : ${ownername}\n│ *💌Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *⌚Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣\n\n╭─⬣「 _*WAKTU INDONESIAN*_ 」⬣\n│ *Wib* : ${time}\n│ *Wita* : ${wita}\n│ *Wit* : ${wit}  \n╰─⬣`, `${zifa}`, `Selamat ${salam} ${pushname} ☺️`, `»Pilihan Menu«`, {quoted:fgif})
 						}
 					}
 					break    
