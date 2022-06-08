@@ -85,13 +85,9 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam}... 
-♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *⳹ ❋ཻུ۪۪Zifabot-MD⳹ ❋ཻུ۪۪* ]─✧
-╰─────···
-📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 button 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
+	return`Hai kak ${pushname} 👋 selamat ${salam} , 
+saya adalah *${botname}*, Bot ini di buat oleh *Rozi* yang menggunakan script dari alphabot. 
+*_Harap tidak ngespam bot❗._*
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -106,7 +102,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}ping
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
-╰❒ ${prefix}donasi
+╰❒ ${prefix}donate
 
 
 ╭─❒ 「 Owner 」 
@@ -864,12 +860,9 @@ Goodbye`
 }
 exports.source = () =>{
 return`*—「 Script Zifabotz 」—*
-╭──❉ *📮 Script Recode:*
-║│➸ https://github.com/Amrozi888/zifabotz-MD1
-║╭──❉  •BASE Hisoka-Morou
-║╰──❉ •SC ORI alphabot-MD11
-Cek di YouTube ZeeoneOfc di bawah!
-═════════════
+
+Cek di yt zeeone aje soalnye Rozi kagak tau🗿 
+Link yt ada di bawah!
 `
 }
 exports.tos = (ownernomer) => {
@@ -894,9 +887,7 @@ exports.info = (prefix) =>{
 ├ ${prefix}ping
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
-╰❒ ${prefix}donasi
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
+╰❒ ${prefix}donate
 `}
 
 exports.ownermenu = (prefix) =>{
@@ -929,8 +920,6 @@ return`╭─❒ 「 Owner 」
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [pesan bot]
 ╰❒ ${prefix}setppbot [reply image]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.database = (prefix) =>{
@@ -946,8 +935,6 @@ exports.database = (prefix) =>{
 ├ ${prefix}getmsg [nama file]
 ├ ${prefix}listmsg
 ╰❒ ${prefix}delmsg [nama file]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.group = (prefix) =>{
@@ -969,8 +956,6 @@ exports.group = (prefix) =>{
 ├ ${prefix}group [open/close]
 ├ ${prefix}tagall [text]
 ╰❒ ${prefix}hidetag [text]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.anime = (prefix) =>{
@@ -979,8 +964,6 @@ exports.anime = (prefix) =>{
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.tag = (prefix) =>{
@@ -989,8 +972,6 @@ exports.tag = (prefix) =>{
 ├ ${prefix}videotag [query]
 ├ ${prefix}vntag [query]
 ╰❒ ${prefix}imagetag [query]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.stalk = (prefix) =>{
@@ -998,8 +979,6 @@ exports.stalk = (prefix) =>{
 ├ ${prefix}igstalk [username]
 ├ ${prefix}ghstalk [username]
 ╰❒ ${prefix}ytstalk [channel]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.search = (prefix) =>{
@@ -1013,8 +992,6 @@ exports.search = (prefix) =>{
 ├ ${prefix}webtoons [query]
 ├ ${prefix}drakor [query]
 ╰❒ ${prefix}pinterest [query]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.converter = (prefix) =>{
@@ -1027,8 +1004,6 @@ exports.converter = (prefix) =>{
 ├ ${prefix}togif [sticker]
 ├ ${prefix}tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.effect = (prefix) =>{
@@ -1067,8 +1042,6 @@ exports.effect = (prefix) =>{
 ├ ${prefix}burn [reply image/stiker]
 ├ ${prefix}brazzers [reply image/stiker]
 ╰❒ ${prefix}beautiful [reply image/stiker]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 //
@@ -1093,8 +1066,6 @@ exports.effect2 = (prefix) =>{
 ├ ${prefix}threshold [reply image/stiker]
 ├ ${prefix}brightness [reply image/stiker]
 ╰❒ ${prefix}invertgreyscale [reply image/stiker]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1125,8 +1096,6 @@ return`╭─❒ 「 Download 」
 ├ ${prefix}gitrepo [username repo branch]
 ├ ${prefix}mediafire [link]
 ╰❒ ${prefix}twitter link
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1163,8 +1132,6 @@ exports.ranime = (prefix) =>{
 ├ ${prefix}poke
 ├ ${prefix}dance
 ╰❒ ${prefix}cringe
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1248,8 +1215,6 @@ exports.nsfw = (prefix) =>{
 ├ ${prefix}ngif
 ├ ${prefix}cuddle
 ╰❒ ${prefix}zettai
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1435,8 +1400,6 @@ exports.textpro = (prefix) =>{
 ├ ${prefix}metalb2 text
 ├ ${prefix}metalg text
 ╰❒ ${prefix}metalg text
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1451,8 +1414,6 @@ return`╭─❒ 「 Others 」
 ├ ${prefix}smeme [text]
 ├ ${prefix}smeme2 [text|text]
 ╰❒ ${prefix}memegen [text|text]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.game = (prefix) =>{
@@ -1462,8 +1423,6 @@ return`╭─❒ 「 Game Menu 」
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
 ╰❒ ${prefix}caklontong
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.asupan = (prefix) =>{
@@ -1490,8 +1449,6 @@ return`╭─❒ 「 Asupan Menu 」
 ├ ${prefix}santuy
 ├ ${prefix}ukhty
 ╰❒ ${prefix}syifa
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.cecan = (prefix) =>{
@@ -1507,8 +1464,6 @@ return`╭─❒ 「 Random Cewe 」
 ├ ${prefix}jiso 
 ├ ${prefix}lisa  
 ╰❒ ${prefix}rose
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1517,18 +1472,15 @@ exports.tqto = () =>{
 ├ My God
 ├ My Parents
 ├ Fatih A.
-├ Zifabotz
-├ Rozi
 ├ Ferdi
 ├ DikaArdnt
 ├ Mhankbarbar
 ├ Nurutomo
 ├ Rashid
-├ ZeeoneOfc 
+├ ZeeoneOfc *pembuat SC*
+├ *Rozi & Zifabotz*
 ├ Penyedia Module
 ╰❒ And All Support
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1564,8 +1516,6 @@ exports.primbonmenu = (prefix) =>{
 ├ ${prefix}masasubur
 ├ ${prefix}zodiak 
 ╰❒ ${prefix}shio [query]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1592,8 +1542,6 @@ exports.stcmenu = (prefix) =>{
 ├ ${prefix}sponsbob
 ├ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `}
 
 exports.ephotomenu = (prefix) =>{
@@ -1684,8 +1632,6 @@ exports.ephotomenu = (prefix) =>{
 ├ ${prefix}stylepoligon text|text2
 ├ ${prefix}lifebuoys text|text2
 ╰❒ ${prefix}juventusshirt text|text2`
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 }
 
 exports.logomenu = (prefix) =>{
@@ -1755,8 +1701,6 @@ exports.logomenu = (prefix) =>{
 ├ ${prefix}mascotstyle text|text2|thumb
 ├ ${prefix}logoaccording text|text2|thumb
 ╰❒ ${prefix}avataroverwatch text|text2|thumb
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1770,8 +1714,6 @@ exports.islammenu = (prefix) =>{
 ├ ${prefix}listsurah
 ├ ${prefix}tafsirsurah [surah]
 ╰❒ ${prefix}alquranaudio [surah|ayat]
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1789,8 +1731,6 @@ exports.storemenu = (prefix) =>{
 ├ ${prefix}kalkulator
 ├ ${prefix}proses
 ╰❒ ${prefix}done
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 
@@ -1867,7 +1807,5 @@ return`╭─❒ 「 Sound Menu 」
 ├ ${prefix}sound68
 ├ ${prefix}sound69
 ╰❒ ${prefix}sound70
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
