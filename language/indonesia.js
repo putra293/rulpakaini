@@ -42,11 +42,11 @@ exports.doneOwner = () => {
 }
 
 exports.groupOnly = () => {
-    return `💬  Command ini hanya bisa digunakan di dalam grup!`
+    return `💬  ini bukan di dalam grub karna command ini hanya bisa di gunakan di dalam grub bukan di chat pribadi!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `lawack lo... admin aja bukan AWOKAWOK!!`
 }
 
 exports.nhFalse = () => {
@@ -863,10 +863,13 @@ exports.leave = () =>{
 Goodbye`
 }
 exports.source = () =>{
-return`*—「 Script Zifabotz 」—*
-
-Cek di yt zeeone aje soalnye Rozi kagak tau🗿 
-Link yt ada di bawah!
+return`═══════════════════════
+║╭──❉ 〔 SCRIPT 〕 ❉──────
+║│ *📮 Script Recode:*
+║│➸ https://github.com/Amrozi888/zifabotz-MD1
+║╭──❉  •BASE Hisoka-Morou
+║╰──❉ •SC ORI alphabot-MD11
+═════════════
 `
 }
 exports.tos = (ownernomer) => {
