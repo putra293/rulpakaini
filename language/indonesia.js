@@ -89,7 +89,7 @@ exports.menunya = (salam, pushname, botname) =>{
 ♡   ❍ㅤ  ⎙ㅤ ⌲
 ╭─[ *_Zifabot-MD_* ]─✧
 ╰─────···
-📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 button 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
+📮 𝚂𝚒𝚕𝚊𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚋𝚞𝚝𝚝𝚘𝚗 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 ⬣━〔Powered By Rozi━⬣
 ▌│█║▌║▌║║▌║▌║█│▌
 `
@@ -1476,13 +1476,14 @@ exports.tqto = () =>{
 ├ My God
 ├ My Parents
 ├ Fatih A.
+├ Zifabotz
+├ Rozi
 ├ Ferdi
 ├ DikaArdnt
 ├ Mhankbarbar
 ├ Nurutomo
 ├ Rashid
-├ ZeeoneOfc *pembuat SC*
-├ *Rozi & Zifabotz*
+├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
 `
