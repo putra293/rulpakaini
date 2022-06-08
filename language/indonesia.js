@@ -42,7 +42,7 @@ exports.doneOwner = () => {
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `💬  Command ini hanya bisa digunakan di dalam grup!`
 }
 
 exports.adminOnly = () => {
@@ -85,7 +85,7 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
+	return`Hai kak ${pushname} 👋 selamat ${salam} ... 
 ♡   ❍ㅤ  ⎙ㅤ ⌲
 ╭─[ *_⳹ ❋ཻུ۪۪Zifabot-MD⳹ ❋ཻུ۪۪_* ]─✧
 ╰─────···
