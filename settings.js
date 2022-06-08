@@ -18,9 +18,9 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = true //status online (online)
 
 // Other
-global.botname = "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD⳹ ❋ཻུ۪۪*" //namabot kalian
-global.zifa = "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD⳹ ❋ཻུ۪۪*" //kontol kalian
-global.ownername= "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD⳹ ❋ཻུ۪۪*" //nama kalian
+global.botname = "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD2⳹ ❋ཻུ۪۪*" //namabot kalian
+global.zifa = "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD2⳹ ❋ཻུ۪۪*" //kontol kalian
+global.ownername= "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD2⳹ ❋ཻུ۪۪*" //nama kalian
 global.myweb ="https://instagram.com/zalfapontianak" //bebas asal jan hapus
 global.youtube = "https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ" //bebas asal jan hapus
 global.github = "https/github.com/Botynyakamu/" //bebas
@@ -32,7 +32,7 @@ global.thumbnail = "./image/rozi.jpg" // ini lol.jpg adalah nama foto di folder 
 global.donasi = "./image/zifa.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/f19193f43448cbbeb5e7d.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6285828764046","6285828764046","6285828764046"] //ganti agar fitur owner bisa di gunakan
-global.packname = 'Zifabotz-MD' //sticker wm ubah
+global.packname = 'Zifabotz-MD2' //sticker wm ubah
 global.author = 'Di Buat Oleh rozi' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
