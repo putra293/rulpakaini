@@ -87,17 +87,17 @@ exports.notNum = (q) => {
 exports.menunya = (salam, pushname, botname) =>{
 	return`*Hai kak ${pushname} 👋 selamat ${salam}* ... 
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_Zifabot-MD_* ]─✧
+╭─[ *_Zifabotz-MD_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚋𝚞𝚝𝚝𝚘𝚗 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
+⬣━〔Powered By Rozi〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 🧸*
 *⌚Time Server : ${time}*
-*📚 List-Menu ⳹ ❋ཻུ۪۪⸙Zifabot-MD⳹ ❋ཻུ۪۪ :*
+*📚 List-Menu ⳹ ❋ཻུ۪۪⸙Zifabotz-MD⳹ ❋ཻུ۪۪ :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
