@@ -18,22 +18,22 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = true //status online (online)
 
 // Other
-global.botname = "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD2⳹ ❋ཻུ۪۪*" //namabot kalian
-global.zifa = "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD2⳹ ❋ཻུ۪۪*" //kontol kalian
-global.ownername= "*⳹ ❋ཻུ۪۪⸙Zifabotz-MD2⳹ ❋ཻུ۪۪*" //nama kalian
-global.myweb ="https://instagram.com/zalfapontianak" //bebas asal jan hapus
+global.botname = "*⳹ ❋ཻུ۪۪⸙Putrabotz-MD2⳹ ❋ཻུ۪۪*" //namabot kalian
+global.zifa = "*⳹ ❋ཻུ۪۪⸙Putrabotz-MD2⳹ ❋ཻུ۪۪*" //kontol kalian
+global.ownername= "*⳹ ❋ཻུ۪۪⸙Putrabotz-MD2⳹ ❋ཻུ۪۪*" //nama kalian
+global.myweb ="https://instagram.com/Putra Nich" //bebas asal jan hapus
 global.youtube = "https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ" //bebas asal jan hapus
 global.github = "https/github.com/Botynyakamu/" //bebas
-global.email = "anidaanida59@gmail.com" //bebas
-global.region = "roziganteng" //bebas
-global.ownernomer = "6285828764046" // nomor wa kalian
-global.ownernomerr = "+6285828764046" //nmr wa kalian
+global.email = "selenagemes023@gmail.com" //bebas
+global.region = "putraganteng" //bebas
+global.ownernomer = "6283840600765" // nomor wa kalian
+global.ownernomerr = "+6283840600765" //nmr wa kalian
 global.thumbnail = "./image/rozi.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/zifa.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/f19193f43448cbbeb5e7d.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.owner = ["6285828764046","6285828764046","6285828764046"] //ganti agar fitur owner bisa di gunakan
-global.packname = 'Zifabotz-MD2' //sticker wm ubah
-global.author = 'Di Buat Oleh rozi' //sticker wm ganti nama kalian
+global.owner = ["6283840600765","6283840600765","6283840600765"] //ganti agar fitur owner bisa di gunakan
+global.packname = 'Putrabotz-MD2' //sticker wm ubah
+global.author = 'Di Buat Oleh putra' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -51,7 +51,7 @@ global.mess = {
     private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
 	bot: 'Fitur Khusus Pengguna Nomor Bot',
     errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
-    wait: '⏳ zifabotz Sedang Di Proses',
+    wait: '⏳ putrabotz Sedang Di Proses',
 	lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
 	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
